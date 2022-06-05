@@ -5,7 +5,7 @@ A lightweight representation of the ascii table that makes it easy to convert to
 ## Install
 
 ```sh
-npm install --save ascii-converter
+npm install --save ascii-map
 ```
 
 ## Usage
