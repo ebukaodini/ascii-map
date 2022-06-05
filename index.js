@@ -34,7 +34,7 @@ const asciiTable = [
   { dec: "29", hex: "1D", oct: "035", bin: "00011101", htmlCode: "&#29;", htmlName: undefined, char: "GS", desc: "Group Separator" },
   { dec: "30", hex: "1E", oct: "036", bin: "00011110", htmlCode: "&#30;", htmlName: undefined, char: "RS", desc: "Record Separator" },
   { dec: "31", hex: "1F", oct: "037", bin: "00011111", htmlCode: "&#31;", htmlName: undefined, char: "US", desc: "Unit Separator" },
-  { dec: "32", hex: "20", oct: "040", bin: "00100000", htmlCode: "&#32;", htmlName: undefined, char: "(Space)", desc: "Space" },
+  { dec: "32", hex: "20", oct: "040", bin: "00100000", htmlCode: "&#32;", htmlName: undefined, char: " ", desc: "Space" },
   { dec: "33", hex: "21", oct: "041", bin: "00100001", htmlCode: "&#33;", htmlName: "&excl;", char: "!", desc: "Exclamation Mark" },
   { dec: "34", hex: "22", oct: "042", bin: "00100010", htmlCode: "&#34;", htmlName: "&quot;", char: '"', desc: "Double Quote" },
   { dec: "35", hex: "23", oct: "043", bin: "00100011", htmlCode: "&#35;", htmlName: "&num;", char: "#", desc: "Hash or Number" },
