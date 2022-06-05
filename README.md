@@ -1,4 +1,4 @@
-# ascii-converter
+# ascii-map
 
 A lightweight representation of the ascii table that makes it easy to convert to and fro character, decimal, hexadecimal, octal, HTML code, HTML name.
 
@@ -11,7 +11,7 @@ npm install --save ascii-converter
 ## Usage
 
 ```js
-import { char, dec, hex, oct, bin, htmlCode, htmlName } from "ascii-converter";
+import { char, dec, hex, oct, bin, htmlCode, htmlName } from "ascii-map";
 
 char("A") // { dec: "65", hex: "41", oct: "101", bin: "01000001", htmlCode: "&#65;", htmlName: undefined, char: "A", desc: "Upper Case Letter A" }
 
