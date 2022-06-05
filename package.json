@@ -1,0 +1,19 @@
+{
+  "name": "ascii-converter",
+  "version": "1.0.0",
+  "description": "A lightweight representation of the ascii table that makes it easy to convert to and fro character, decimal, hexadecimal, octal, HTML code, HTML name.",
+  "repository": "ebukaodini/ascii-converter",
+  "main": "index.js",
+  "keywords": [
+    "ascii",
+    "decimal",
+    "hexadecimal",
+    "octal",
+    "HTML code",
+    "HTML name",
+    "convert"
+  ],
+  "author": "Ebuka Odini <ebukaodini@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
