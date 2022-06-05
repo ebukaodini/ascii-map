@@ -1,4 +1,4 @@
-import { char, dec, hex, oct, bin, htmlCode, htmlName } from "./index.js";
+const { char, dec, hex, oct, bin, htmlCode, htmlName } = require("./index.js");
 
 console.log(
   char("A"),

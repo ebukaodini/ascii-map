@@ -133,10 +133,12 @@ const asciiTable = [
 ]
 
 // finds and returns the record whose value matches the search key 
-export function dec(character) { return asciiTable.find(char => char.dec === character) ?? undefined }
-export function hex(character) { return asciiTable.find(char => char.hex === character) ?? undefined }
-export function oct(character) { return asciiTable.find(char => char.oct === character) ?? undefined }
-export function bin(character) { return asciiTable.find(char => char.bin === character) ?? undefined }
-export function htmlCode(character) { return asciiTable.find(char => char.htmlCode === character) ?? undefined }
-export function htmlName(character) { return asciiTable.find(char => char.htmlName === character) ?? undefined }
-export function char(character) { return asciiTable.find(char => char.char === character) ?? undefined }
+const dec = (character) => asciiTable.find(char => char.dec === character) ?? undefined
+const hex = (character) => asciiTable.find(char => char.hex === character) ?? undefined
+const oct = (character) => asciiTable.find(char => char.oct === character) ?? undefined
+const bin = (character) => asciiTable.find(char => char.bin === character) ?? undefined
+const htmlCode = (character) => asciiTable.find(char => char.htmlCode === character) ?? undefined
+const htmlName = (character) => asciiTable.find(char => char.htmlName === character) ?? undefined
+const char = (character) => asciiTable.find(char => char.char === character) ?? undefined
+
+module.exports = { dec, hex, oct, bin, htmlCode, htmlName, char }

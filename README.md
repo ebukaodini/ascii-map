@@ -11,7 +11,7 @@ npm install --save ascii-map
 ## Usage
 
 ```js
-import { char, dec, hex, oct, bin, htmlCode, htmlName } from "ascii-map";
+const { char, dec, hex, oct, bin, htmlCode, htmlName } = require("ascii-map");
 
 char("A") // { dec: "65", hex: "41", oct: "101", bin: "01000001", htmlCode: "&#65;", htmlName: undefined, char: "A", desc: "Upper Case Letter A" }
 

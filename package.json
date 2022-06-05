@@ -1,6 +1,6 @@
 {
   "name": "ascii-map",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight representation of the ascii table that makes it easy to convert to and fro character, decimal, hexadecimal, octal, HTML code, HTML name.",
   "repository": "ebukaodini/ascii-map",
   "main": "index.js",
@@ -14,6 +14,5 @@
     "convert"
   ],
   "author": "Ebuka Odini <ebukaodini@gmail.com>",
-  "license": "MIT",
-  "type": "module"
+  "license": "MIT"
 }
